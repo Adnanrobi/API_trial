@@ -1,0 +1,13 @@
+/venv
+# Ignore all Django migration files
+**/migrations/*.py
+migrations/
+
+# Ignore __pycache__ directories and files
+__pycache__/
+*.pyc
+*.pyo
+
+db.sqlite3
+HealthChatAI-API.code-workspace
+ticket_files
